@@ -1,19 +1,22 @@
 h1 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Verdana;
     text-align: center;
     color: aqua;
+    font-weight: bold;
     background-color: #b8b8b8;
 }
 
 h3 {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Verdana;
     background: #b8b8b8;
     text-align: center;
+    font-weight: bold;
 }
 
 p {
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center
+    font-family: Verdana;
+    text-align: center;
+    
 }
 
 .center{
