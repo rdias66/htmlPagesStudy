@@ -1,18 +1,22 @@
 h1 {
     font-family: Verdana;
     text-align: center;
-    color: aqua;
+    color: rgb(36, 182, 182);
     font-weight: bold;
-    background-color: #b8b8b8;
+    background-color: black;
     font-size: 24px;
+    margin: 60px auto;
 }
 
 h3 {
     font-family: Verdana;
-    background: #b8b8b8;
+    background: rgb(32, 36, 85);
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    color: whitesmoke;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 p {
@@ -29,4 +33,7 @@ p {
     margin-right: auto;
     width: 50%;
 }
-    
+
+.bluebg{
+    background-color: rgb(173, 173, 224);
+}
