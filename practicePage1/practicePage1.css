@@ -4,6 +4,7 @@ h1 {
     color: aqua;
     font-weight: bold;
     background-color: #b8b8b8;
+    font-size: 24px;
 }
 
 h3 {
@@ -11,11 +12,14 @@ h3 {
     background: #b8b8b8;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
 }
 
 p {
     font-family: Verdana;
     text-align: center;
+    line-height: 42px;
+    font-size: 16px;
     
 }
 
