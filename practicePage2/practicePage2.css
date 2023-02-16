@@ -1,1 +1,55 @@
 
+.bgice{
+    background-color: rgb(241, 247, 247);
+}
+.container{
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    border-bottom: 3px solid rgb(211, 194, 194)
+}
+
+img{
+    width: 190px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+a {
+    border-radius: 6px;
+    background-color: rgb(84, 138, 84);
+    color: white;
+    font-size: 12px;
+    font-family: Tahoma;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+span{
+    font-weight: bold;
+}
