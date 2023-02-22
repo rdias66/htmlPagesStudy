@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(186, 198, 219);
+    width: auto;
+    height: 300px;
+    text-align: center;
+
+}
+
+.header p { 
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+a {
+    border-bottom: 1px solid black;
+    margin: auto 20px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
