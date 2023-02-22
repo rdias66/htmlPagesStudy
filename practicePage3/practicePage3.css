@@ -3,11 +3,11 @@
     width: auto;
     height: 300px;
     text-align: center;
-
+    font-family: Verdana;
 }
 
 .header p { 
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px auto;
 }
 
@@ -27,3 +27,26 @@ a {
     text-align: center;
 }
 
+.description-conteiner {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    font-family: Verdana;
+}
+
+.description-conteiner img {
+    width: 600px;
+    height: auto;
+}
+
+.description-conteiner p{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 400px;
+    line-height: 30px;
+}
+
+.description-conteiner p span , .description-conteiner h3 {
+    color:rgb(88, 176, 248);
+    font-weight: bold;
+}
