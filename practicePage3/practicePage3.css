@@ -21,3 +21,9 @@ a {
     height: 150px;
     margin: 20px auto;
 }
+
+.image-conteiner {
+    margin: 20px;
+    text-align: center;
+}
+
