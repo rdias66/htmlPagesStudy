@@ -39,7 +39,7 @@ a {
     height: auto;
 }
 
-.description-conteiner p{
+.description-conteiner p {
     text-align: center;
     font-size: 16px;
     margin: 20px 400px;
@@ -50,3 +50,33 @@ a {
     color:rgb(88, 176, 248);
     font-weight: bold;
 }
+
+.services-conteiner {
+    background-color: rgb(76, 114, 163);
+    text-align: center;
+    font-family: Verdana;
+    color: white;
+}
+
+.services-conteiner p {
+    font-size: 18px;
+    margin: 30px 600px;
+    line-height: 40px;
+}
+
+.services-conteiner ul {
+    margin: 20px 900px;
+    line-height: 30px;
+    padding-top: auto;
+    padding-bottom: 30px;
+}
+
+.services-conteiner h2 {
+    padding: 40px;
+}
+
+.services-conteiner span{
+    color: yellow;
+    font-weight: bold;
+}
+
