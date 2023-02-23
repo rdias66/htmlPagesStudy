@@ -4,6 +4,7 @@
     height: 300px;
     text-align: center;
     font-family: Verdana;
+    margin-top: 0;
 }
 
 .header p { 
@@ -11,9 +12,11 @@
     margin: 20px auto;
 }
 
-a {
+.header a {
     border-bottom: 1px solid black;
     margin: auto 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .header img {
@@ -27,35 +30,36 @@ a {
     text-align: center;
 }
 
-.description-conteiner {
+.description-conteiner , .broker-conteiner{
     text-align: center;
     margin: 30px;
-    padding: 20px;
+    
     font-family: Verdana;
 }
 
-.description-conteiner img {
+.description-conteiner img , .broker-conteiner img{
     width: 600px;
     height: auto;
 }
 
-.description-conteiner p {
+.description-conteiner p , .broker-conteiner p{
     text-align: center;
     font-size: 16px;
     margin: 20px 400px;
     line-height: 30px;
 }
 
-.description-conteiner p span , .description-conteiner h3 {
+.description-conteiner p span , .description-conteiner h3 , .broker-conteiner h3 , .broker-conteiner span{
     color:rgb(88, 176, 248);
     font-weight: bold;
 }
 
-.services-conteiner {
+.services-conteiner , .contact-conteiner{
     background-color: rgb(76, 114, 163);
     text-align: center;
     font-family: Verdana;
     color: white;
+    margin: 0;
 }
 
 .services-conteiner p {
@@ -64,19 +68,47 @@ a {
     line-height: 40px;
 }
 
-.services-conteiner ul {
+.services-conteiner ul{
     margin: 20px 900px;
     line-height: 40px;
     padding-top: auto;
     padding-bottom: 30px;
 }
 
-.services-conteiner h2 {
+.services-conteiner h2{
     padding: 40px;
 }
 
-.services-conteiner span{
+.services-conteiner span, .contact-conteiner span{
     color: yellow;
     font-weight: bold;
 }
 
+.contact-conteiner h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-conteiner p {
+    background-color: black;
+    color: white;
+    margin: 30px 60px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-conteiner iframe{
+    width: 800px;
+    height: 400px;
+}
+
+.contact-conteiner a{
+    background-color: white;
+    color: rgb(76, 114, 163);
+    text-decoration: underline;
+}
+
+.contact-conteiner ul{
+    line-height: 30px;
+    margin: 20px;
+}
