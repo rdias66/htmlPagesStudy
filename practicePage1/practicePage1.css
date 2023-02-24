@@ -5,8 +5,7 @@ h1 {
     font-weight: bold;
     background-color: rgb(26, 218, 208);
     font-size: 24px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: 0 250px;
 }
 
 h3 {
