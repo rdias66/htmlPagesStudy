@@ -36,8 +36,7 @@ body{
 .description-conteiner , .broker-conteiner{
     text-align: center;
     margin: 30px;
-    
-    font-family: Verdana;
+    font-family: Tahoma;
 }
 
 .description-conteiner img , .broker-conteiner img{
