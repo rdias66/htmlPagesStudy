@@ -6,4 +6,8 @@ body {
 
 .div-main {
     border: 2px solid white;
+    text-align: center;
+    width: 600px;
+    height: 800px;
 }
+
