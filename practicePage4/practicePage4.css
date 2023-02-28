@@ -2,13 +2,16 @@ body {
     background-color: rgb(61, 56, 56);
     font-family: Tahoma;
     margin: 0;
+    
 }
 
 .div-main {
     border: 2px solid white;
-    text-align: center;
     width: 600px;
     height: 800px;
+    margin: 650px;
+    text-align: center;
+    padding: 30px;
 }
 
 .div-main h1 {
@@ -19,4 +22,6 @@ body {
 .div-main p {
     font-size: 16px;
     color: azure;
+    padding: 30px;
+    line-height: 40px;
 }
