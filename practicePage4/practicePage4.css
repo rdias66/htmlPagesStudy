@@ -8,19 +8,21 @@ body {
     border: 2px solid white;
     width: 600px;
     height: 800px;
-    margin: 650px;
+    margin: 50px 650px;
     text-align: center;
     padding: 30px;
+    background-image: url('./oldpaperbg.jfif');
+    background-size: contain;
 }
 
 .div-main h1 {
     font-size: 20px;
-    color:azure;
+    color:rgb(5, 8, 8);
 }
 
 .div-main p {
     font-size: 16px;
-    color: azure;
+    color: rgb(2, 2, 2);
     padding: 30px;
     line-height: 40px;
 }
