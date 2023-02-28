@@ -3,3 +3,7 @@ body {
     font-family: Tahoma;
     margin: 0;
 }
+
+.div-main {
+    border: 2px solid white;
+}
