@@ -1,51 +1,50 @@
-/*General settings*/
-body {
-    margin: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1 {
+    font-family: Verdana;
+    text-align: center;
+    color: rgb(6, 19, 19);
+    font-weight: bold;
+    background-color: rgb(26, 218, 208);
+    font-size: 24px;
+    margin: 0 250px;
 }
 
-/* Section 1 - Fixed Header*/
-.fixed-header-section {
-    position: fixed;
-    background-color: #654017;
-    margin: 0;
-    width: 100%;
-    height: 170px;
-    z-index: 1;
-}
-.fixed-header-section iframe {
-    border: 0;
-    margin: 0;
-    text-align: left;
-}
-.fixed-header-section  a {
-    border: 2px solid rgb(204, 180, 114);
-    border-radius: 6px;
-    padding: 10px 20px;
-    color:rgb(204, 180, 114);
-
-}
-.fixed-header-section ul{
-    position: absolute;
-    text-align: right;
-    right: 5%;
-    bottom: 30%;
-}
-.fixed-header-section li{
-    display: inline-block;
-    margin: auto 20px;
+h3 {
+    font-family: Verdana;
+    background: rgb(32, 36, 85);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
 }
 
-/* Section 2 -Parallax Background*/
-
-.parallax-bg{
-    position:absolute;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('img/coffeshop_bg.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+p {
+    font-family: Verdana;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    
 }
 
+.center{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.bluebg{
+    background-color: rgb(173, 173, 224);
+}
+
+.content {
+    border-bottom: 3px solid rgb(51, 56, 65);
+    border-top: 3px solid rgb(51, 56, 65); ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 180px;
+    background-color: bisque;
+}
+
+img {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
