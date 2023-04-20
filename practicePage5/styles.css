@@ -1,0 +1,54 @@
+/*General settings*/
+body{
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Section 1 - Fixed Header*/
+.fixed-header-section{
+    position: fixed;
+    background-color: #654017;
+    margin: 0;
+    width: 100%;
+    height: 170px;
+    z-index: 1;
+}
+.fixed-header-section iframe{
+    border: 0;
+    margin: 0;
+    text-align: left;
+}
+.fixed-header-section  a{
+    border: 2px solid rgb(204, 180, 114);
+    border-radius: 6px;
+    padding: 10px 20px;
+    color:rgb(204, 180, 114);
+
+}
+.fixed-header-section ul{
+    position: absolute;
+    text-align: right;
+    right: 5%;
+    bottom: 30%;
+}
+.fixed-header-section li{
+    display: inline-block;
+    margin: auto 20px;
+}
+
+/* Section 2 -Parallax Background*/
+
+.parallax-bg{
+    position:absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/coffeshop_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax-bg div{
+    position: fixed;
+}
