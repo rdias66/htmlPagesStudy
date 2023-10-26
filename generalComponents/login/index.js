@@ -11,7 +11,7 @@ const Login = () => {
           <input type="password" id="password" name="password" placeholder="Enter your password" required className="input" />
           <br />
           <button type="submit" className="button">
-            Login
+            LoginBox
           </button>
         </form>
       </div>
